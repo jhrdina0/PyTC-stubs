@@ -61,6 +61,7 @@ This project bridges that gap by providing `.pyi` stub files for the SOA DLLs, e
 
     Note that it is required to first load .NET dlls into memory, before doing any imports.
 
+More examples: [PyTc-examples](https://github.com/jhrdina0/PyTC-examples)
 ## Showcase
 
 ![image](https://github.com/user-attachments/assets/cbd17f8e-d79c-4aa1-99ae-12f9715a14bc)
