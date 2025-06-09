@@ -1,0 +1,13 @@
+import Teamcenter.Soa.Client
+import Teamcenter.Soa.Client.Model.Strong
+import Wnb0.Services.Internal.Strong.Weightandbalance._2021_06.Report
+
+class ReportRestBindingStub(ReportService):
+    def __init__(self, connection: Teamcenter.Soa.Client.Connection) -> None: ...
+    def GetPayloadExcursionPlotInfo(self, RollupDataset: Teamcenter.Soa.Client.Model.Strong.Dataset) -> Wnb0.Services.Internal.Strong.Weightandbalance._2021_06.Report.GetPayloadExcursionPlotInfoResp: ...
+
+class ReportService:
+    @staticmethod
+    def getService(connection: Teamcenter.Soa.Client.Connection) -> ReportService: ...
+    def GetPayloadExcursionPlotInfo(self, RollupDataset: Teamcenter.Soa.Client.Model.Strong.Dataset) -> Wnb0.Services.Internal.Strong.Weightandbalance._2021_06.Report.GetPayloadExcursionPlotInfoResp: ...
+

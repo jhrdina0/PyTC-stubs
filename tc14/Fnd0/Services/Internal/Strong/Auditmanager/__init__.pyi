@@ -1,0 +1,13 @@
+import Fnd0.Services.Internal.Strong.Auditmanager._2012_09.ProcessHistoryManagement
+import Teamcenter.Soa.Client
+import Teamcenter.Soa.Client.Model.Strong
+
+class ProcessHistoryManagementRestBindingStub(ProcessHistoryManagementService):
+    def __init__(self, connection: Teamcenter.Soa.Client.Connection) -> None: ...
+    def GetProcssHistoryAuditRecords(self, WsoObject: Teamcenter.Soa.Client.Model.Strong.WorkspaceObject) -> Fnd0.Services.Internal.Strong.Auditmanager._2012_09.ProcessHistoryManagement.GetProcessHistoryAuditRecordsResponse: ...
+
+class ProcessHistoryManagementService:
+    @staticmethod
+    def getService(connection: Teamcenter.Soa.Client.Connection) -> ProcessHistoryManagementService: ...
+    def GetProcssHistoryAuditRecords(self, WsoObject: Teamcenter.Soa.Client.Model.Strong.WorkspaceObject) -> Fnd0.Services.Internal.Strong.Auditmanager._2012_09.ProcessHistoryManagement.GetProcessHistoryAuditRecordsResponse: ...
+

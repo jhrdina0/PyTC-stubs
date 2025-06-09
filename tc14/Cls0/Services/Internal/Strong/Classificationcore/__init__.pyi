@@ -1,0 +1,13 @@
+import Cls0.Services.Internal.Strong.Classificationcore._2013_05.Classification
+import System
+import Teamcenter.Soa.Client
+
+class ClassificationRestBindingStub(ClassificationService):
+    def __init__(self, connection: Teamcenter.Soa.Client.Connection) -> None: ...
+    def CreateOrUpdateHierarchyViews(self, HierarchyViewDetails: list[Cls0.Services.Internal.Strong.Classificationcore._2013_05.Classification.HierarchyViewDetails]) -> Cls0.Services.Internal.Strong.Classificationcore._2013_05.Classification.CreateOrUpdateHierarchyViewsResponse: ...
+
+class ClassificationService:
+    @staticmethod
+    def getService(connection: Teamcenter.Soa.Client.Connection) -> ClassificationService: ...
+    def CreateOrUpdateHierarchyViews(self, HierarchyViewDetails: list[Cls0.Services.Internal.Strong.Classificationcore._2013_05.Classification.HierarchyViewDetails]) -> Cls0.Services.Internal.Strong.Classificationcore._2013_05.Classification.CreateOrUpdateHierarchyViewsResponse: ...
+

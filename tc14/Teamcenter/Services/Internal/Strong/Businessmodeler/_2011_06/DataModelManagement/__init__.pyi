@@ -1,0 +1,13 @@
+import System
+import typing
+
+class ServerCacheResponse:
+    def __init__(self, ) -> None: ...
+    ErrorCode: int
+    LogFileTickets: list[str]
+
+class DataModelManagement:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def UpdateClientMetaCache(self, Option: int) -> str: ...
+    def UpdateServerMetaCache(self, Option: int) -> ServerCacheResponse: ...
+

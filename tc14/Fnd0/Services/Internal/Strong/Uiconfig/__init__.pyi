@@ -1,0 +1,13 @@
+import Fnd0.Services.Internal.Strong.Uiconfig._2014_11.UiConfig
+import System
+import Teamcenter.Soa.Client
+
+class UiConfigRestBindingStub(UiConfigService):
+    def __init__(self, connection: Teamcenter.Soa.Client.Connection) -> None: ...
+    def ResetUIConfigs(self, ResetUiConfigsIn: list[Fnd0.Services.Internal.Strong.Uiconfig._2014_11.UiConfig.ResetUIConfigInput]) -> Fnd0.Services.Internal.Strong.Uiconfig._2014_11.UiConfig.ResetUIConfigResponse: ...
+
+class UiConfigService:
+    @staticmethod
+    def getService(connection: Teamcenter.Soa.Client.Connection) -> UiConfigService: ...
+    def ResetUIConfigs(self, ResetUiConfigsIn: list[Fnd0.Services.Internal.Strong.Uiconfig._2014_11.UiConfig.ResetUIConfigInput]) -> Fnd0.Services.Internal.Strong.Uiconfig._2014_11.UiConfig.ResetUIConfigResponse: ...
+

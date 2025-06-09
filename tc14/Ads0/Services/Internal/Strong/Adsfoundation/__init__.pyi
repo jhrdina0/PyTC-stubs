@@ -1,0 +1,13 @@
+import Ads0.Services.Internal.Strong.Adsfoundation._2012_09.AdsFoundation
+import System.Collections
+import Teamcenter.Soa.Client
+
+class AdsFoundationRestBindingStub(AdsFoundationService):
+    def __init__(self, connection: Teamcenter.Soa.Client.Connection) -> None: ...
+    def ResolveSourceDocument(self, ObjectType: str, CompId: str, AttrValueMap: System.Collections.Hashtable, SrcRevId: str, SrcOwnOrg: str) -> Ads0.Services.Internal.Strong.Adsfoundation._2012_09.AdsFoundation.ResolveSourceDocumentResponse: ...
+
+class AdsFoundationService:
+    @staticmethod
+    def getService(connection: Teamcenter.Soa.Client.Connection) -> AdsFoundationService: ...
+    def ResolveSourceDocument(self, ObjectType: str, CompId: str, AttrValueMap: System.Collections.Hashtable, SrcRevId: str, SrcOwnOrg: str) -> Ads0.Services.Internal.Strong.Adsfoundation._2012_09.AdsFoundation.ResolveSourceDocumentResponse: ...
+

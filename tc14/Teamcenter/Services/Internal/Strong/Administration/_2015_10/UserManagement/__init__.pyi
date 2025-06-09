@@ -1,0 +1,6 @@
+import typing
+
+class UserManagement:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def ResetUserPassword(self, Userid: str, Oldpassword: str, Newpassword: str) -> bool: ...
+

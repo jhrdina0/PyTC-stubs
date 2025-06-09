@@ -1,0 +1,23 @@
+import System
+import Teamcenter.Services.Loose.Core._2006_03.Session
+import Teamcenter.Soa.Client.Model
+import Teamcenter.Soa.Common
+import typing
+
+class GetDisplayStringsOutput:
+    def __init__(self, ) -> None: ...
+    Key: str
+    Value: str
+
+class GetDisplayStringsResponse:
+    def __init__(self, ) -> None: ...
+    Output: list[GetDisplayStringsOutput]
+    ServiceData: Teamcenter.Soa.Client.Model.ServiceData
+
+class Session:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def GetDisplayStrings(self, Info: list[str]) -> GetDisplayStringsResponse: ...
+    def Login(self, Username: str, Password: str, Group: str, Role: str, Locale: str, SessionDiscriminator: str) -> Teamcenter.Services.Loose.Core._2006_03.Session.LoginResponse: ...
+    def LoginSSO(self, Username: str, SsoCredentials: str, Group: str, Role: str, Locale: str, SessionDiscriminator: str) -> Teamcenter.Services.Loose.Core._2006_03.Session.LoginResponse: ...
+    def SetObjectPropertyPolicy(self, Policy: Teamcenter.Soa.Common.ObjectPropertyPolicy) -> str: ...
+

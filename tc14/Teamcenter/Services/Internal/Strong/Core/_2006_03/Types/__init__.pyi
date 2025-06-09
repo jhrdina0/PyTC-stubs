@@ -1,0 +1,9 @@
+import System
+import Teamcenter.Schemas.Soa._2006_03.Base
+import typing
+
+class Types:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def InitTypeByNames(self, TypeNames: list[str]) -> Teamcenter.Schemas.Soa._2006_03.Base.ModelSchema: ...
+    def InitTypeByUids(self, Uids: list[str]) -> Teamcenter.Schemas.Soa._2006_03.Base.ModelSchema: ...
+

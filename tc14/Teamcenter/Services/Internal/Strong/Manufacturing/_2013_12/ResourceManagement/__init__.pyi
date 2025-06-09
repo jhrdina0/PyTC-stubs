@@ -1,0 +1,9 @@
+import Teamcenter.Soa.Client.Model
+import Teamcenter.Soa.Client.Model.Strong
+import typing
+
+class ResourceManagement:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def ShowCoordinateSystems(self, BomWindow: Teamcenter.Soa.Client.Model.Strong.BOMWindow, ShowCoordinateSystems: bool) -> Teamcenter.Soa.Client.Model.ServiceData: ...
+    def ShowGCSConnectionPoints(self, BomWindow: Teamcenter.Soa.Client.Model.Strong.BOMWindow, ShowGCSConnectionPointsOption: int) -> Teamcenter.Soa.Client.Model.ServiceData: ...
+

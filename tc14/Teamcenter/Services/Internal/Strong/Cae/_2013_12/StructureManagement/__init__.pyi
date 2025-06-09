@@ -1,0 +1,6 @@
+import typing
+
+class StructureManagement:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def PropagateCAEModelAttributes(self) -> bool: ...
+

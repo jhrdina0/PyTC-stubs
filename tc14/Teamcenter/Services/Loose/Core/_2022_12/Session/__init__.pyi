@@ -1,0 +1,6 @@
+import typing
+
+class Session:
+    def __init__(self , *args: typing.Any) -> None: ...
+    def TcServerSleep(self, Seconds: int) -> str: ...
+
